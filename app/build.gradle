@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdk 34
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId 'com.pintto.confissoes'
-        minSdkVersion 16
-        targetSdkVersion 30
+        minSdk 26
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
