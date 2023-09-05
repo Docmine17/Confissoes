@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.confissoes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Confissões">
+        <activity
+            android:name="com.pintto.confissoes.MainActivity"
+            android:theme="@style/Theme.Confissões.NoActionBar"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.pintto.confissoes.Login"
+            android:theme="@style/Theme.Confissões.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.pintto.confissoes.Criar_senha"
+            android:theme="@style/Theme.Confissões.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.pintto.confissoes.Settings"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.pintto.confissoes.SplashScreen"
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

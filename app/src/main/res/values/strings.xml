@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Confissões</string>
+    <string name="action_settings">Configurações</string>
+    <string name="limpar_conteudo">Limpar todo Conteúdo</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="texto_padrao">🔸Escreva aqui.
+            \n🔹
+            \n🔹
+            \n🔹
+            \n🔹
+            \n🔹
+            \n🔹
+            \n
+            ----- ----- ----- ----- -----
+            \n
+             Ato de Contrição
+            \n
+            \nMeu Deus, eu me arrependo, de todo meu coração de ter vos ofendido, porque sois tão bom e amável. Prometo com a vossa graça, nunca mais pecar.
+            \n
+            \nMeu Jesus misericórdia.</string>
+
+
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+
+    <string name="escreva_aqui">Escreva Aqui.</string>
+
+    <string name="preencha_anotacao">Preencha a anotação</string>
+    <string name="anotacao_salva_sucesso">Anotação salva com sucesso</string>
+
+    <string name="apagar_conteudo">Apagar o conteúdo?</string>
+    <string name="apagar">Apagar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="perdera_conteudo_permantentemente">Você perderá todo o conteúdo permanentemente.</string>
+    <string name="conteudo_apagado_sucesso">Conteúdo apagado com sucesso</string>
+
+    <string name="seguranca">Segurança</string>
+        <string name="habilitar_senha">Habilitar Senha</string>
+        <string name="alterar_senha">Alterar Senha</string>
+
+    <string name="texto_e_visualizacao">Texto e Visualização</string>
+        <string name="tamanho_da_fonte">Tamanho da Fonte</string>
+        <string name="tema_escuro">Tema Escuro</string>
+
+    <string name="escolha_tema">Escolha um Tema</string>
+    <string name="item_tema_claro">Claro</string>
+    <string name="item_tema_escuro">Escuro</string>
+    <string name="item_tema_sistema">Sistema (Padrão)</string>
+
+    <string name="escolha_tamanho_fonte">Escolha o tamanho da Fonte</string>
+    <string name="item_fonte_pequena">Pequena</string>
+    <string name="item_fonte_normal">Normal (Padrão)</string>
+    <string name="item_fonte_grande">Grande</string>
+
+    <string name="hintSenha">Senha</string>
+    <string name="botaoEntrar">Entrar</string>
+
+    <string name="preenchaCampoAcima">Por favor preencha o campo acima</string>
+    <string name="entrando">Entrando…</string>
+    <string name="senhaIncorreta">Senha Incorreta</string>
+
+    <string name="crieUmaSenhaDe">Crie uma senha de no Minino 4 Digitos e Maximo de 9 Digitos.</string>
+    <string name="hintNovaSenha">Senha</string>
+    <string name="hintConfirmarSenha">Confirm. Senha</string>
+    <string name="criarSenha">Criar Senha</string>
+
+    <string name="preenchaCampoSenha">Preencha o campo de senha</string>
+    <string name="senhaPrecisaMin4">A senha precisa de no minimo 4 números</string>
+    <string name="senhaMaior9Dig">A senha não pode ser maior do que 9 Digitos</string>
+    <string name="preenchaCampoConfirmarSenha">Preencha o campo Confirmar Senha</string>
+    <string name="senhaNaoCondizem">As Senhas não condizem</string>
+    <string name="senhaDefinida">Senha definida</string>
+
+</resources>
