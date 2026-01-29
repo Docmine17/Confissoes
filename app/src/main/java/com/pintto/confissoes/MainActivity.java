@@ -6,7 +6,6 @@ import android.os.Bundle;
 
 import com.pintto.confissoes.Gerenciadores.GerenciadorDeTexto;
 import com.pintto.confissoes.Gerenciadores.Preferencias;
-import com.pintto.confissoes.R;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
