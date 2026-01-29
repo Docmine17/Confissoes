@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.pintto.confissoes.Gerenciadores.GerenciadorDeSenhas;
-import com.example.confissoes.R;
+import com.pintto.confissoes.R;
 
 public class Criar_senha extends AppCompatActivity {
 
@@ -96,7 +96,3 @@ public class Criar_senha extends AppCompatActivity {
     public void voltar(View View){ finish(); } //Botão de voltar
 
 }
-
-
-
-

@@ -10,7 +10,7 @@ import android.os.Looper;
 
 import com.pintto.confissoes.Gerenciadores.GerenciadorDeSenhas;
 import com.pintto.confissoes.Gerenciadores.Preferencias;
-import com.example.confissoes.R;
+import com.pintto.confissoes.R;
 
 public class SplashScreen extends AppCompatActivity {
 

@@ -3,13 +3,13 @@
     <string name="action_settings">Configurações</string>
     <string name="limpar_conteudo">Limpar todo Conteúdo</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="texto_padrao">🔸Escreva aqui.
-            \n🔹
-            \n🔹
-            \n🔹
-            \n🔹
-            \n🔹
-            \n🔹
+    <string name="texto_padrao">Escreva aqui.
+            \n
+            \n
+            \n
+            \n
+            \n
+            \n
             \n
             ----- ----- ----- ----- -----
             \n
