@@ -13,17 +13,14 @@
             android:theme="@style/Theme.Confissões.NoActionBar"
             android:windowSoftInputMode="adjustResize"
             android:screenOrientation="portrait" />
-        <activity android:name="com.pintto.confissoes.Login"
-            android:theme="@style/Theme.Confissões.NoActionBar"
-            android:screenOrientation="portrait"/>
         <activity android:name="com.pintto.confissoes.Criar_senha"
             android:theme="@style/Theme.Confissões.NoActionBar"
             android:screenOrientation="portrait"/>
         <activity android:name="com.pintto.confissoes.Settings"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.pintto.confissoes.SplashScreen"
-            android:theme="@style/SplashTheme"
+            android:name="com.pintto.confissoes.Login"
+            android:theme="@style/Theme.Confissões.NoActionBar"
             android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>

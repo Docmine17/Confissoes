@@ -25,16 +25,19 @@ public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
 
         //Instanciar o gerenciador de senha.
         gerenciadorDeSenhas = new GerenciadorDeSenhas(getApplicationContext());
 
         //Se não existir senha
         if (!gerenciadorDeSenhas.senhaAtivada()){
+            startActivity(new Intent(this, MainActivity.class));
             finish();
         }
+
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+
 
         //Atribuir IDs as Variaveis.
         caixaDeSenha = findViewById(R.id.caixaDeSenha);
