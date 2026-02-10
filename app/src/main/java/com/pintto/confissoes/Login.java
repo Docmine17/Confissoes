@@ -10,7 +10,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.pintto.confissoes.Gerenciadores.GerenciadorDeSenhas;
-import com.pintto.confissoes.R;
 
 public class Login extends AppCompatActivity {
 

@@ -3,21 +3,7 @@
     <string name="action_settings">Configurações</string>
     <string name="limpar_conteudo">Limpar todo Conteúdo</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="texto_padrao">Escreva aqui.
-            \n
-            \n
-            \n
-            \n
-            \n
-            \n
-            \n
-            ----- ----- ----- ----- -----
-            \n
-             Ato de Contrição
-            \n
-            \nMeu Deus, eu me arrependo, de todo meu coração de ter vos ofendido, porque sois tão bom e amável. Prometo com a vossa graça, nunca mais pecar.
-            \n
-            \nMeu Jesus misericórdia.</string>
+    <string name="texto_padrao">Escreva aqui.\n\n\n\n\n\nAto de Contrição\n\nMeu Deus, eu me arrependo, de todo meu coração de ter vos ofendido, porque sois tão bom e amável. Prometo com a vossa graça, nunca mais pecar.\nMeu Jesus misericórdia.</string>
 
 
     <string name="sim">Sim</string>
@@ -70,5 +56,6 @@
     <string name="preenchaCampoConfirmarSenha">Preencha o campo Confirmar Senha</string>
     <string name="senhaNaoCondizem">As Senhas não condizem</string>
     <string name="senhaDefinida">Senha definida</string>
+    <string name="salvar">salvar</string>
 
 </resources>

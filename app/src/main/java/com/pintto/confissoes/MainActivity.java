@@ -38,13 +38,13 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        setSupportActionBar(binding.toolbar);
 
-
-        //Remover Título da Toolbar
+        // Remover Título da Toolbar
         Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(null);
+        toolbar.setTitle("");
+
+        // Ativa o menu da Toolbar
+        setSupportActionBar(binding.toolbar);
 
         //Instancia o gerenciador de Texto
         gerenciadorDeTexto = new GerenciadorDeTexto(getApplicationContext());
@@ -62,12 +62,12 @@ public class MainActivity extends AppCompatActivity {
         //Recuperar a anotacao
         String anotacao = gerenciadorDeTexto.recuperarAnoacao();
 
-        if (!anotacao.equals("")){
+        if (!anotacao.isEmpty()){
             editText.setText(anotacao);
         }
 
 
-        if (textoRecuperado.equals("") && anotacao.equals("")){
+        if (textoRecuperado.isEmpty() && anotacao.isEmpty()){
             editText.setText(R.string.texto_padrao);
         }
 
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             //Validar se foi digitado algo
             String textoRecuperado1 = editText.getText().toString();
 
-            if(textoRecuperado1.equals("")){
+            if(textoRecuperado1.isEmpty()){
                 Snackbar.make(view, R.string.preencha_anotacao, Snackbar.LENGTH_LONG).show();
             }else {
                 gerenciadorDeTexto.salvarAnotacao(textoRecuperado1);
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         verificarTamanhoFonte();
 
-        if (!textoRecuperado.equals("")){
+        if (!textoRecuperado.isEmpty()){
             editText.setText(textoRecuperado);
         }
 
@@ -161,9 +161,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void verificarTamanhoFonte(){
         String tamanho = preferencias.tamanhoFonte();
-        if      (tamanho.equals("0")){editText.setTextSize(15);}
-        else if (tamanho.equals("1")){editText.setTextSize(18);}
-        else if (tamanho.equals("2")){editText.setTextSize(22);}
+        switch (tamanho) {
+            case "0" -> editText.setTextSize(15);
+            case "1" -> editText.setTextSize(18);
+            case "2" -> editText.setTextSize(22);
+        }
     }
 
 

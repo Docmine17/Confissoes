@@ -65,7 +65,7 @@ public class Criar_senha extends AppCompatActivity {
         }else if (caixa1 && !senhaDaCaixa.equals(senhaDaCaixaDeConfirmar)) {
             textComent.setText(R.string.senhaNaoCondizem);
             caixa2 =false;
-        }else if(caixa1 && senhaDaCaixa.equals(senhaDaCaixaDeConfirmar)){
+        }else if(caixa1){
             caixa2 = true; textComent.setText(null);}
 
         if (caixa1 & caixa2){

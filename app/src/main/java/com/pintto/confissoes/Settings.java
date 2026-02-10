@@ -12,7 +12,6 @@ import android.widget.Button;
 
 import com.pintto.confissoes.Gerenciadores.GerenciadorDeSenhas;
 import com.pintto.confissoes.Gerenciadores.Preferencias;
-import com.pintto.confissoes.R;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.Objects;
