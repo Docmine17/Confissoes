@@ -1,6 +1,7 @@
 package com.pintto.confissoes;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.pintto.confissoes.Gerenciadores.GerenciadorDeSenhas;
+import com.pintto.confissoes.Gerenciadores.Preferencias;
 
 public class Login extends AppCompatActivity {
 
@@ -21,9 +23,14 @@ public class Login extends AppCompatActivity {
     private String senhaDaCaixa;
     private String senhaUsuario;
 
+    private Preferencias preferencias;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        preferencias = new Preferencias(getApplicationContext());
+        verificarModoNoturno();
 
         //Instanciar o gerenciador de senha.
         gerenciadorDeSenhas = new GerenciadorDeSenhas(getApplicationContext());
@@ -80,5 +87,19 @@ public class Login extends AppCompatActivity {
         autenticar();
     }
 
+    public void verificarModoNoturno() { //Verifica o modo escuro das preferencias e aplica.
+        String modo = preferencias.modoNoturno();
+        switch (modo) {
+            case "0":
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
+                break;
+            case "1":
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                break;
+            case "2":
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                break;
+        }
 
+    }
 }

@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
     //Alert Dialog.
     public void abrirDialog(){
         //instanciar o Alertdialog
-        MaterialAlertDialogBuilder materialAlertDialogBuilder = new MaterialAlertDialogBuilder(this);
+        MaterialAlertDialogBuilder materialAlertDialogBuilder = new MaterialAlertDialogBuilder(this,R.style.AlertDialogTheme);
 
 
         //Configurar titulo e mensagem
