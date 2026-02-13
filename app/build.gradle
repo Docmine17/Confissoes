@@ -4,7 +4,6 @@ plugins {
 
 android {
     namespace 'com.pintto.confissoes'
-    compileSdk 34
 
     defaultConfig {
         applicationId 'com.pintto.confissoes'
@@ -34,6 +33,9 @@ android {
     }
     dependenciesInfo {
         includeInApk true
+    }
+    compileSdk {
+        version = release(36)
     }
 }
 
