@@ -61,7 +61,7 @@ public class Login extends AppCompatActivity {
         senhaDaCaixa = caixaDeSenha.getText().toString();
 
         if(senhaDaCaixa.isEmpty()) {//Se a caixa de senha esiver vazia
-            textComent.setText(R.string.preenchaCampoAcima);
+            textComent.setText(R.string.preenchaCampoSenha);
         }else {
             //Se a senha estiver certa
             if (senhaUsuario.equals(senhaDaCaixa)) {

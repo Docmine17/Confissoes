@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Confissões</string>
     <string name="action_settings">Configurações</string>
-    <string name="limpar_conteudo">Limpar todo Conteúdo</string>
+    <string name="apagar_conteudo">Apagar Conteúdo</string>
     <!-- Strings used for fragments for navigation -->
     <string name="texto_padrao">Escreva aqui.\n\n\n\n\n\nAto de Contrição\n\nMeu Deus, eu me arrependo, de todo meu coração de ter vos ofendido, porque sois tão bom e amável. Prometo com a vossa graça, nunca mais pecar.\nMeu Jesus misericórdia.</string>
 
@@ -14,7 +14,7 @@
     <string name="preencha_anotacao">Preencha a anotação</string>
     <string name="anotacao_salva_sucesso">Anotação salva com sucesso</string>
 
-    <string name="apagar_conteudo">Apagar o conteúdo?</string>
+    <string name="pergunta_apagar_conteudo">Apagar o conteúdo?</string>
     <string name="apagar">Apagar</string>
     <string name="cancelar">Cancelar</string>
     <string name="perdera_conteudo_permantentemente">Você perderá todo o conteúdo permanentemente.</string>
@@ -26,7 +26,7 @@
 
     <string name="texto_e_visualizacao">Texto e Visualização</string>
         <string name="tamanho_da_fonte">Tamanho da Fonte</string>
-        <string name="tema_escuro">Tema Escuro</string>
+        <string name="tema_escuro">Tema</string>
 
     <string name="escolha_tema">Escolha um Tema</string>
     <string name="item_tema_claro">Claro</string>
@@ -41,13 +41,12 @@
     <string name="hintSenha">Senha</string>
     <string name="botaoEntrar">Entrar</string>
 
-    <string name="preenchaCampoAcima">Por favor preencha o campo acima</string>
     <string name="entrando">Entrando…</string>
     <string name="senhaIncorreta">Senha Incorreta</string>
 
     <string name="crieUmaSenhaDe">Crie uma senha de no Minino 4 Digitos e Maximo de 9 Digitos.</string>
     <string name="hintNovaSenha">Senha</string>
-    <string name="hintConfirmarSenha">Confirm. Senha</string>
+    <string name="hintConfirmarSenha">Confirmar Senha</string>
     <string name="criarSenha">Criar Senha</string>
 
     <string name="preenchaCampoSenha">Preencha o campo de senha</string>

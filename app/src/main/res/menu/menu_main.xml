@@ -7,11 +7,11 @@
         android:icon="@drawable/ic_settings"
         android:orderInCategory="99"
         android:title="@string/action_settings"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="never" />
     <item
         android:id="@+id/action_erase"
         android:icon="@drawable/ic_delete"
         android:orderInCategory="1"
-        android:title="@string/limpar_conteudo"
-        app:showAsAction="ifRoom" />
+        android:title="@string/apagar_conteudo"
+        app:showAsAction="never" />
 </menu>

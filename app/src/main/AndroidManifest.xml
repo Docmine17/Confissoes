@@ -10,22 +10,18 @@
         android:theme="@style/Theme.Confissões">
         <activity
             android:name="com.pintto.confissoes.MainActivity"
-            android:theme="@style/Theme.Confissões.NoActionBar"
             android:windowSoftInputMode="adjustResize"
             android:screenOrientation="portrait" />
         <activity android:name="com.pintto.confissoes.Criar_senha"
-            android:theme="@style/Theme.Confissões.NoActionBar"
             android:screenOrientation="portrait"/>
         <activity android:name="com.pintto.confissoes.Settings"
             android:screenOrientation="portrait"/>
         <activity
             android:name="com.pintto.confissoes.Login"
-            android:theme="@style/Theme.Confissões.NoActionBar"
             android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
