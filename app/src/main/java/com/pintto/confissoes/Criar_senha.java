@@ -32,9 +32,6 @@ public class Criar_senha extends AppCompatActivity {
         androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        java.util.Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-
         // Atribuir IDs.
         caixaDeSenha = findViewById(R.id.caixaDeSenha);
         caixaDeConfirmarSenha = findViewById(R.id.caixaDeConfirmarSenha);

@@ -32,8 +32,6 @@ public class Settings extends AppCompatActivity {
         androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
-
 
         // Instancia o gerenciador de senhas;
         gerenciadorDeSenhas = new GerenciadorDeSenhas(getApplicationContext());
