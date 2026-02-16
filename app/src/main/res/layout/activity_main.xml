@@ -42,12 +42,12 @@
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="0dp"
             app:layout_collapseMode="pin"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -57,7 +57,7 @@
         android:layout_height="1dp"
         android:layout_marginStart="42dp"
         android:layout_marginEnd="42dp"
-        android:background="?attr/colorControlNormal"
+        android:background="@color/material_on_surface_disabled"
         app:layout_constraintBottom_toTopOf="@+id/frame"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
